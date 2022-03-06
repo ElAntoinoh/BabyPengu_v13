@@ -4,5 +4,5 @@ module.exports = {
     
     execute(client) {
         console.log('Je suis prêt !');
-    }
-}
+    },
+};

@@ -11,5 +11,5 @@ module.exports = async client => {
             client.once(event.name, (...args) => event.execute(client, ...args));
         else
             client.on(event.name, (...args) => event.execute(client, ...args));
-    })
-}
+    });
+};
